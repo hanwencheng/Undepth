@@ -1,6 +1,6 @@
 # 我们正在遭受网络攻击
 
-:hp-alt-tag: greatFireAttack
+:hp-alt-title: greatFireAttack
 
 :hp-image: http://www.undepth.com/images/greatfire-logo-big.png
 
