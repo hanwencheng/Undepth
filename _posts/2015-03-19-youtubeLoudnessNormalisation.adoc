@@ -36,12 +36,12 @@ Madonna 的 Living For Love 甚至达到惊人的 －7 LUFS
 
 具体看下面两个图：
 
-image::http://www.undepth.com/images/sound1.jpg[sound pic 1]
+image::https://www.undepth.com/images/sound1.jpg[sound pic 1]
 
 
 这张图上我们可以清楚的看到声音信号的峰值高出均值很多，高低信号之间的对比更加明显。
 
-image::http://www.undepth.com/images/sound2.jpg[]
+image::https://www.undepth.com/images/sound2.jpg[]
 
 
 这时增加了响度（响度标准化）之后的声音信号，信号的起伏感消失了很多，刚才我们可以清晰发现的信号最大值现在也无法清楚的确认了。这就是所谓的动态空间的改变。
