@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>我们正在遭受网络攻击</title>
+    <meta name="description" content="" />
+    <link href="//fonts.googleapis.com/css?family=Noto+Sans:300,400,700" rel="stylesheet" type="text/css">
+    <link href="//fonts.googleapis.com/css?family=Noto+Serif:400,700,400italic" rel="stylesheet" type="text/css">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <link href="//hanwencheng.github.io/Undepth/themes/Saga/assets/css/style.css?v=1.0.0" rel="stylesheet" type="text/css">
+    <link href="//hanwencheng.github.io/Undepth/themes/Saga/assets/css/animate.min.css?v=1.0.0" rel="stylesheet" type="text/css">
+    <link href="//hanwencheng.github.io/Undepth/themes/Saga/favicon.ico" rel="shortcut icon">
+    <link rel="canonical" href="https://hanwencheng.github.io/Undepth/2015/03/19/greatFireAttack.html" />
+    
+    <meta property="og:site_name" content="非深度学习" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="我们正在遭受网络攻击" />
+    <meta property="og:description" content="GreatFire.org是一个监测长城防火墙状态的网站，通过这个网站可以查询网站是否收到防火墙的影响，到底哪些网站被封锁，被封锁了多少，或者是正在接受测试检查等等。 比如谷歌google.com在中国是96%被封锁，德国之声dw.de是100%被封锁。 今天GreatFire.org发布了一篇题为“我们正在遭受攻击”公告， 里面说他们正在遭受第一次网络DDoS攻击（分布式拒绝服务攻击），DDoS和普通黑客通过网站漏洞攻击不同，是一种非常简单粗暴的网络攻击手段，就是在短时间内制造非常多的访问请求来冲垮服务器。GreatFire.org 今天就享受到了每小时26亿次访问请求。 GreatFire.org声称他们从17号就开始收到攻击了，今天是最惨的一天，而且所有的镜像网站都无一幸免。不过也难怪，当时他们正在讨论使网站解禁的方法，这种方法还被华尔街日报详细的报道过，而且上个星期巴黎的一个NGO组织还曾经用这种方法使9个网站在全世界范围内解禁。这种动作肯定是会被很多人关注的。 不过对GreatFire.org最惨的事情是： 因为GreatFire.org托管在了amazon web services（亚马逊云服务平台）..." />
+    <meta property="og:url" content="https://hanwencheng.github.io/Undepth/2015/03/19/greatFireAttack.html" />
+    <meta property="og:image" content="http://www.undepth.com/images/greatfire-logo-big.png" />
+    <meta property="article:published_time" content="2015-03-18T23:00:00.000Z" />
+    <meta property="article:modified_time" content="2015-03-19T21:31:01.538Z" />
+    
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="我们正在遭受网络攻击" />
+    <meta name="twitter:description" content="GreatFire.org是一个监测长城防火墙状态的网站，通过这个网站可以查询网站是否收到防火墙的影响，到底哪些网站被封锁，被封锁了多少，或者是正在接受测试检查等等。 比如谷歌google.com在中国是96%被封锁，德国之声dw.de是100%被封锁。 今天GreatFire.org发布了一篇题为“我们正在遭受攻击”公告， 里面说他们正在遭受第一次网络DDoS攻击（分布式拒绝服务攻击），DDoS和普通黑客通过网站漏洞攻击不同，是一种非常简单粗暴的网络攻击手段，就是在短时间内制造非常多的访问请求来冲垮服务器。GreatFire.org 今天就享受到了每小时26亿次访问请求。 GreatFire.org声称他们从17号就开始收到攻击了，今天是最惨的一天，而且所有的镜像网站都无一幸免。不过也难怪，当时他们正在讨论使网站解禁的方法，这种方法还被华尔街日报详细的报道过，而且上个星期巴黎的一个NGO组织还曾经用这种方法使9个网站在全世界范围内解禁。这种动作肯定是会被很多人关注的。 不过对GreatFire.org最惨的事情是： 因为GreatFire.org托管在了amazon web services（亚马逊云服务平台）..." />
+    <meta name="twitter:url" content="https://hanwencheng.github.io/Undepth/2015/03/19/greatFireAttack.html" />
+    <meta name="twitter:image:src" content="http://www.undepth.com/images/greatfire-logo-big.png" />
+    
+    <script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "Article",
+    "publisher": "非深度学习",
+    "author": {
+        "@type": "Person",
+        "name": "Hanwen Cheng",
+        "image": "https://avatars.githubusercontent.com/u/6014309?v=3",
+        "url": "undefined/author/undefined",
+        "sameAs": "http://www.hanwencheng.com"
+    },
+    "headline": "我们正在遭受网络攻击",
+    "url": "https://hanwencheng.github.io/Undepth/2015/03/19/greatFireAttack.html",
+    "datePublished": "2015-03-18T23:00:00.000Z",
+    "dateModified": "2015-03-19T21:31:01.538Z",
+    "image": "http://www.undepth.com/images/greatfire-logo-big.png",
+    "description": "GreatFire.org是一个监测长城防火墙状态的网站，通过这个网站可以查询网站是否收到防火墙的影响，到底哪些网站被封锁，被封锁了多少，或者是正在接受测试检查等等。 比如谷歌google.com在中国是96%被封锁，德国之声dw.de是100%被封锁。 今天GreatFire.org发布了一篇题为“我们正在遭受攻击”公告， 里面说他们正在遭受第一次网络DDoS攻击（分布式拒绝服务攻击），DDoS和普通黑客通过网站漏洞攻击不同，是一种非常简单粗暴的网络攻击手段，就是在短时间内制造非常多的访问请求来冲垮服务器。GreatFire.org 今天就享受到了每小时26亿次访问请求。 GreatFire.org声称他们从17号就开始收到攻击了，今天是最惨的一天，而且所有的镜像网站都无一幸免。不过也难怪，当时他们正在讨论使网站解禁的方法，这种方法还被华尔街日报详细的报道过，而且上个星期巴黎的一个NGO组织还曾经用这种方法使9个网站在全世界范围内解禁。这种动作肯定是会被很多人关注的。 不过对GreatFire.org最惨的事情是： 因为GreatFire.org托管在了amazon web services（亚马逊云服务平台）..."
+}
+    </script>
+
+    <meta name="generator" content="Ghost ?" />
+    <link rel="alternate" type="application/rss+xml" title="非深度学习" href="https://hanwencheng.github.io/Undepth/rss" />
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/default.min.css">
+</head>
+<body class="post-template">
+    <header id="header" class="animated fadeIn" style="background-image: url(http://www.undepth.com/images/greatfire-logo-big.png)">
+    <div class="header-background">
+    <section class="blog-content">
+        <a id="site-url" class="blog-title" href="https://hanwencheng.github.io/Undepth">非深度学习</a>
+        <span class="blog-description">每天与公众号同步更新分享内容。</span>
+        <nav class="links fadeIn animated">
+            <ul>
+                <!-- <li class="rss"><a title="RSS Feed" href="/rss/"><i class="fa fa-fw fa-rss-square"></i></a></li> -->
+        
+            </ul>
+        </nav>
+    </section>
+    <section class="header-content">
+        <h1 class="post-title animated fadeInUp">我们正在遭受网络攻击</h1>
+        <span class="post-data"><span class="date animated fadeInUp"><i class="fa fa-clock-o"></i> <time class="timesince date" data-timesince="1426719600" datetime="2015-03-19T00:00" title="19 March 2015">2015-03-19 00:00:00<ago class="ago"></time></span>
+            
+            <span class="author animated fadeInUp"><i class="fa fa-user"></i> <a href="">Hanwen Cheng</a></span></span>
+    </section>
+    </div>
+</header>
+<main id="main" class="content">
+    <article itemtype="http://schema.org/BlogPosting" class="animated fadeIn content post post">
+        <section class="post-content">
+            <div class="paragraph">
+<p>GreatFire.org是一个监测长城防火墙状态的网站，通过这个网站可以查询网站是否收到防火墙的影响，到底哪些网站被封锁，被封锁了多少，或者是正在接受测试检查等等。</p>
+</div>
+<div class="paragraph">
+<p>比如谷歌google.com在中国是96%被封锁，德国之声dw.de是100%被封锁。</p>
+</div>
+<div class="paragraph">
+<p>今天GreatFire.org发布了一篇题为“我们正在遭受攻击”公告，
+里面说他们正在遭受第一次网络DDoS攻击（分布式拒绝服务攻击），DDoS和普通黑客通过网站漏洞攻击不同，是一种非常简单粗暴的网络攻击手段，就是在短时间内制造非常多的访问请求来冲垮服务器。GreatFire.org 今天就享受到了每小时26亿次访问请求。</p>
+</div>
+<div class="paragraph">
+<p>GreatFire.org声称他们从17号就开始收到攻击了，今天是最惨的一天，而且所有的镜像网站都无一幸免。不过也难怪，当时他们正在讨论使网站解禁的方法，这种方法还被华尔街日报详细的报道过，而且上个星期巴黎的一个NGO组织还曾经用这种方法使9个网站在全世界范围内解禁。这种动作肯定是会被很多人关注的。</p>
+</div>
+<div class="paragraph">
+<p>不过对GreatFire.org最惨的事情是：</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>因为GreatFire.org托管在了amazon web services（亚马逊云服务平台）上，DDoS攻击成功的展示了亚马逊的业务能力，他们hold住了所有网络请求，服务器没有轻易的被冲垮，同时带来的结果是每天30000美元的费用。</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>今天GreatFire.org非常委屈的在博客里希望amazon能够免除他们的费用，而且还动员读者去在amazon的tweet上留言告诉他们这个事，因为可能如果amazon向他们收这笔钱的话，他们可能马上就要黄了。。。</p>
+</div>
+        </section>
+
+    </article>
+
+</main>
+    <footer class="animated fadeIn" id="footer">
+        <section class="colophon">
+          <section class="copyright">Copyright &copy; <span itemprop="copyrightHolder">非深度学习</span>. <span rel="license">All Rights Reserved</span>.</section>
+          <section class="poweredby">Published By <a class="icon-ghost" href="https://github.com/hanwencheng">Hanwen</a></section>
+        </section>
+        <section class="bottom">
+          <section class="attribution">
+            <a href="http://github.com/Reedyn/Saga">Built with <i class="fa fa-heart"></i> and Free and Open-Source Software</a>.
+          </section>
+        </section>
+    </footer>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js?v="></script> <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment-with-locales.min.js?v="></script> <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js?v="></script> 
+      <script type="text/javascript">
+        jQuery( document ).ready(function() {
+          // change date with ago
+          jQuery('ago.ago').each(function(){
+            var element = jQuery(this).parent();
+            element.html( moment(element.text()).fromNow());
+          });
+        });
+
+        hljs.initHighlightingOnLoad();      
+      </script>
+    <script src="//hanwencheng.github.io/Undepth/themes/Saga/assets/js/scripts.js?v=1.0.0"></script>
+    
+</body>
+</html>
