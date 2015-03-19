@@ -32,7 +32,20 @@ Madonna 的 Living For Love 甚至达到惊人的 －7 LUFS
 
 在youtube上，他们所有的响度都是 －13LUFS。。。。
 
-youtube在网上最大的可以不花钱听音乐的地方，有好多小孩都是在youtube上找音乐听的，而不是iTunes，电视或者广播。这里是他们第一次听新音乐的地方，然后在决定到底喜欢不喜欢，要不要买，分享不分享给其他的朋友。收影响最大的可能就是这批孩子。
+所有声音在响度增大的同时，带来最大的问题就是牺牲了音乐的动态空间。
+
+具体看下面两个图：
+
+image::http://undepth.com/images/sound1.jpg[]
+
+这张图上我们可以清楚的看到声音信号的峰值高出均值很多，高低信号之间的对比更加明显。
+
+image::http://undepth.com/images/sound2.jpg[]
+
+这时增加了响度（响度标准化）之后的声音信号，信号的起伏感消失了很多，刚才我们可以清晰发现的信号最大值现在也无法清楚的确认了。这就是所谓的动态空间的改变。
+
+具体听起来的区别请看youtube上的这段分析视频：
+https://www.youtube.com/watch?v=3Gmex_4hreQ&feature=youtu.be&list=PLimWHcn2lzqI5z8ItCi6gookJptLxE5QM
 
 这里解释几个名词
 
@@ -40,10 +53,6 @@ youtube在网上最大的可以不花钱听音乐的地方，有好多小孩都�
 响度战争（Loudness War）：具体可以参照知乎上的一些讨论
 响度标准化（Loudness Normalisation）: 简单说，响度标准化之后音乐可以制成更高工艺等级的CD，具体可以参考作者的这一篇文章
 http://productionadvice.co.uk/spotify-loudness-war/
-
-这里的一个视频可以具体解释响度的标准化处理是怎么影响声音的动态空间的：
-https://www.youtube.com/watch?v=3Gmex_4hreQ&feature=youtu.be&list=PLimWHcn2lzqI5z8ItCi6gookJptLxE5QM
-（强烈推荐看这个youtube上的视频）
 
 iTunes，Spotify，还有youtube，听众自己会选择他们想要的音量，就像听收音机一样，这是youtube们没法控制的。
 P.S： Spotify的默认设置里响度标准化也是打开的。
