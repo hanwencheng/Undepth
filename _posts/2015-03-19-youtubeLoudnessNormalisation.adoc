@@ -4,7 +4,7 @@
 :hp-image: http://productionadvice.co.uk/wp-content/uploads/2015/03/youtube-loudness.jpg
 
 
-image::http://productionadvice.co.uk/wp-content/uploads/2015/03/youtube-loudness1.png[tech picture]
+image::http://productionadvice.co.uk/wp-content/uploads/2015/03/youtube-loudness1.png[]
 
 这个图你可能啥也看不懂，但是如果你从事的是音乐制作方面工作，这张图可能就是你一年到头见得最多的东西了。
 
