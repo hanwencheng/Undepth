@@ -1,0 +1,57 @@
+= 别让YouTube欺骗了你的耳朵
+
+:hp-alt-title: youtubeLoudnessNormalisation
+:hp-image: http://productionadvice.co.uk/wp-content/uploads/2015/03/youtube-loudness.jpg
+
+
+image::<http://productionadvice.co.uk/wp-content/uploads/2015/03/youtube-loudness1.png>[tech picture]
+
+这个图你可能啥也看不懂，但是如果你从事的是音乐制作方面工作，这张图可能就是你一年到头见得最多的东西了。
+
+
+这是youtube一张播放列表里的音量值，用的是MeterPlugs LCast来测的。
+
+这张图告诉我们两点：
+
+这些音乐的响度不大，特别是以现在“响度战争”（后面会提到）的标准来说。
+响度基本一致，这一点比低音量更重要，说明这些音乐基本上都在以相同的响度播放。
+
+这说明什么？
+
+这说明 youtube 使用了响度标准化处理了他的音乐视频，从去年的12月开始他们就开始在不断的开始做了，这件事竟然一直没有人发现，也没人知道他们是怎么做到的。
+
+举个栗子来说，
+
+Bruno Mars & Mark Ronson 的 Uptown Funk 在 CD 上是 －12 LUFS (响度单位)
+
+Ellie Goulding的 Love Me Like You Do 在 CD 上压制到了－8 LUFS
+
+Madonna 的 Living For Love 甚至达到惊人的 －7 LUFS
+
+然后呢，
+
+在youtube上，他们所有的响度都是 －13LUFS。。。。
+
+youtube在网上最大的可以不花钱听音乐的地方，有好多小孩都是在youtube上找音乐听的，而不是iTunes，电视或者广播。这里是他们第一次听新音乐的地方，然后在决定到底喜欢不喜欢，要不要买，分享不分享给其他的朋友。收影响最大的可能就是这批孩子。
+
+这里解释几个名词
+
+动态空间（Dynamic Range）：是声音信号最大值和最小值的比值
+响度战争（Loudness War）：具体可以参照知乎上的一些讨论
+响度标准化（Loudness Normalisation）: 简单说，响度标准化之后音乐可以制成更高工艺等级的CD，具体可以参考作者的这一篇文章
+http://productionadvice.co.uk/spotify-loudness-war/
+
+这里的一个视频可以具体解释响度的标准化处理是怎么影响声音的动态空间的：
+https://www.youtube.com/watch?v=3Gmex_4hreQ&feature=youtu.be&list=PLimWHcn2lzqI5z8ItCi6gookJptLxE5QM
+（强烈推荐看这个youtube上的视频）
+
+iTunes，Spotify，还有youtube，听众自己会选择他们想要的音量，就像听收音机一样，这是youtube们没法控制的。
+P.S： Spotify的默认设置里响度标准化也是打开的。
+
+那么问题来了，既然这样，为什么youtube上都是－13LUFS？
+
+这篇文章的作者在这里没有给出明确的答案，youtube上也不是所有的音乐都被标准化了（一些老音乐没有），大部分是作者的推测，其中一点非常可能的原因是在Google play的音乐库和youtube连接之后，用户关于声音投诉最多的一点就是和音量有关（主要是手机用户），所以youtube需要标准化响度来提高用户的客户体验。
+
+关于响度战争的争论早已经结束了，现在的问题是，人们还要多久才能认识到响度标准化对我们平时所听音乐的影响？
+
+Ian Shepherd
