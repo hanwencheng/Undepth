@@ -47,6 +47,7 @@ image::http://www.undepth.com/images/sound2.jpg[]
 这时增加了响度（响度标准化）之后的声音信号，信号的起伏感消失了很多，刚才我们可以清晰发现的信号最大值现在也无法清楚的确认了。这就是所谓的动态空间的改变。
 
 具体听起来的区别请看youtube上的这段分析视频：
+video::3Gmex_4hreQ?list=PLimWHcn2lzqI5z8ItCi6gookJptLxE5QM[youtube]
 https://www.youtube.com/watch?v=3Gmex_4hreQ&feature=youtu.be&list=PLimWHcn2lzqI5z8ItCi6gookJptLxE5QM
 
 这里解释几个名词
