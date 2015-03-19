@@ -1,7 +1,7 @@
 # 我们正在遭受网络攻击
 
 :hp-alt-tag: greatFireAttack
-
+:hp-image: iamges/greatfire-logo-big.png
 
 
 GreatFire.org是一个监测长城防火墙状态的网站，通过这个网站可以查询网站是否收到防火墙的影响，到底哪些网站被封锁，被封锁了多少，或者是正在接受测试检查等等。
