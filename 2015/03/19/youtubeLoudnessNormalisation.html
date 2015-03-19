@@ -23,7 +23,7 @@
     <meta property="og:url" content="https://hanwencheng.github.io/Undepth/2015/03/19/youtubeLoudnessNormalisation.html" />
     <meta property="og:image" content="http://productionadvice.co.uk/wp-content/uploads/2015/03/youtube-loudness.jpg" />
     <meta property="article:published_time" content="2015-03-18T23:00:00.000Z" />
-    <meta property="article:modified_time" content="2015-03-19T07:01:59.864Z" />
+    <meta property="article:modified_time" content="2015-03-19T09:25:00.814Z" />
     
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="别让YouTube欺骗了你的耳朵" />
@@ -46,7 +46,7 @@
     "headline": "别让YouTube欺骗了你的耳朵",
     "url": "https://hanwencheng.github.io/Undepth/2015/03/19/youtubeLoudnessNormalisation.html",
     "datePublished": "2015-03-18T23:00:00.000Z",
-    "dateModified": "2015-03-19T07:01:59.864Z",
+    "dateModified": "2015-03-19T09:25:00.814Z",
     "image": "http://productionadvice.co.uk/wp-content/uploads/2015/03/youtube-loudness.jpg",
     "description": "这个图你可能啥也看不懂，但是如果你从事的是音乐制作方面工作，这张图可能就是你一年到头见得最多的东西了。 这是youtube一张播放列表里的音量值，用的是MeterPlugs LCast来测的。 这张图告诉我们两点： 这些音乐的响度不大，特别是以现在“响度战争”（后面会提到）的标准来说。 响度基本一致，这一点比低音量更重要，说明这些音乐基本上都在以相同的响度播放。 这说明什么？ 这说明 youtube 使用了响度标准化处理了他的音乐视频，从去年的12月开始他们就开始在不断的开始做了，这件事竟然一直没有人发现，也没人知道他们是怎么做到的。 举个栗子来说， Bruno Mars &amp;amp; Mark Ronson 的 Uptown Funk 在 CD 上是 －12 LUFS (响度单位) Ellie Goulding的 Love..."
 }
@@ -123,7 +123,30 @@
 <p>在youtube上，他们所有的响度都是 －13LUFS。。。。</p>
 </div>
 <div class="paragraph">
-<p>youtube在网上最大的可以不花钱听音乐的地方，有好多小孩都是在youtube上找音乐听的，而不是iTunes，电视或者广播。这里是他们第一次听新音乐的地方，然后在决定到底喜欢不喜欢，要不要买，分享不分享给其他的朋友。收影响最大的可能就是这批孩子。</p>
+<p>所有声音在响度增大的同时，带来最大的问题就是牺牲了音乐的动态空间。</p>
+</div>
+<div class="paragraph">
+<p>具体看下面两个图：</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="http://undepth.com/images/sound1.jpg" alt="sound1.jpg">
+</div>
+</div>
+<div class="paragraph">
+<p>这张图上我们可以清楚的看到声音信号的峰值高出均值很多，高低信号之间的对比更加明显。</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="http://undepth.com/images/sound2.jpg" alt="sound2.jpg">
+</div>
+</div>
+<div class="paragraph">
+<p>这时增加了响度（响度标准化）之后的声音信号，信号的起伏感消失了很多，刚才我们可以清晰发现的信号最大值现在也无法清楚的确认了。这就是所谓的动态空间的改变。</p>
+</div>
+<div class="paragraph">
+<p>具体听起来的区别请看youtube上的这段分析视频：
+<a href="https://www.youtube.com/watch?v=3Gmex_4hreQ&amp;feature=youtu.be&amp;list=PLimWHcn2lzqI5z8ItCi6gookJptLxE5QM" class="bare">https://www.youtube.com/watch?v=3Gmex_4hreQ&amp;feature=youtu.be&amp;list=PLimWHcn2lzqI5z8ItCi6gookJptLxE5QM</a></p>
 </div>
 <div class="paragraph">
 <p>这里解释几个名词</p>
@@ -133,11 +156,6 @@
 响度战争（Loudness War）：具体可以参照知乎上的一些讨论
 响度标准化（Loudness Normalisation）: 简单说，响度标准化之后音乐可以制成更高工艺等级的CD，具体可以参考作者的这一篇文章
 <a href="http://productionadvice.co.uk/spotify-loudness-war/" class="bare">http://productionadvice.co.uk/spotify-loudness-war/</a></p>
-</div>
-<div class="paragraph">
-<p>这里的一个视频可以具体解释响度的标准化处理是怎么影响声音的动态空间的：
-<a href="https://www.youtube.com/watch?v=3Gmex_4hreQ&amp;feature=youtu.be&amp;list=PLimWHcn2lzqI5z8ItCi6gookJptLxE5QM" class="bare">https://www.youtube.com/watch?v=3Gmex_4hreQ&amp;feature=youtu.be&amp;list=PLimWHcn2lzqI5z8ItCi6gookJptLxE5QM</a>
-（强烈推荐看这个youtube上的视频）</p>
 </div>
 <div class="paragraph">
 <p>iTunes，Spotify，还有youtube，听众自己会选择他们想要的音量，就像听收音机一样，这是youtube们没法控制的。
